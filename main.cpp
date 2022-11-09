@@ -1,11 +1,9 @@
 #include <iostream>
 using namespace std;
-
 int main(){
-float a = 0, b = 0, c = 0; //Qui vanno definite le variabili
+float a = 0, b = 0, c = 0; 
 cin >> a >> b >> c;
 float area triangolo = 0, area quadrato = 0, area rettangolo = 0, area trapezio = 0;
-//Qui va scritto il codice per eseguire i calcoli richiesti
 area triangolo = ((a * b) / 2);
 area quadrato = a * a;
 area rettangolo = a * b;
